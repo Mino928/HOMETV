@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TV Bookmarks</title>
+<style>
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px 35px;
+  }
+  .search-container {
+    text-align: center;
+    margin-bottom: 22px;
+  }
+  input[type="text"] {
+    width: 55%;
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 3px solid #333;
+    background-color: #1e1e1e;
+    color: #fff;
+    outline: none;
+  }
+  input[type="text"]:focus {
+    border-color: #4285f4;
+  }
+  button {
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid #4285f4;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  button:focus, button:hover {
+    border-color: #ffffff;
+    background-color: #3367d6;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+  .title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 3.5rem; /* Adjust this number to make it bigger or smaller */
+    }
+  .tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 74px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px solid #2c2c2c;
+    text-align: center;
+    padding: 8px;
+    transition: transform 0.1s, border-color 0.1s;
+  }
+  .tile:focus, .tile:hover {
+    border-color: #00d2ff;
+    background-color: #292929;
+    transform: scale(1.04);
+    outline: none;
+  }
+</style>
+</head>
+<body>
+
+  <div class="title" >
+    <span>Free TV Garden Channels</span>
+  </div>
+
+
+  <div class="grid">
+    <!-- ROW 1 -->
+    <a class="tile" href="https://freetvgarden.com/india/colors/">Colors</a>
+    <a class="tile" href="https://freetvgarden.com/india/tv-hd/">& TV</a>
+    <a class="tile" href="https://freetvgarden.com/india/alright-tv/">Alright! TV</a>
+    <a class="tile" href="https://freetvgarden.com/india/anjan-tv/">Anjan TV</a>
+    <a class="tile" href="https://freetvgarden.com/india/apna-punjab-tv/">Apna Punjab TV</a>    
+
+    <!-- ROW 2 -->
+    <a class="tile" href="https://freetvgarden.com/india/colors-gujarati/">Colors Gujarati</a>
+    <a class="tile" href="https://freetvgarden.com/india/colors-mena/">Colors MENA</a>
+    <a class="tile" href="https://freetvgarden.com/india/q-tv/">Q TV</a>
+    <a class="tile" href="https://freetvgarden.com/india/swastik-stories/">Swastik Stories</a>
+    <a class="tile" href="https://freetvgarden.com/india/b4u-kadak/">B4U Kadak</a>
+
+    <!-- ROW 3 -->
+    <a class="tile" href="https://freetvgarden.com/india/aaj-tak/">Aaj Tak News</a>
+    <a class="tile" href="https://freetvgarden.com/india/22scope-news/">22 Scope News</a>
+    <a class="tile" href="https://freetvgarden.com/india/aagaaz-times/">Aagaaz Times</a>
+    <a class="tile" href="https://freetvgarden.com/india/aaj-ki-khabar/">Aaj Ki Khabar</a>    
+    <a class="tile" href="https://freetvgarden.com/india/abn-tv-india/">ABN TV India</a>
+
+    <!-- ROW 4 -->
+    <a class="tile" href="https://freetvgarden.com/india/7x-music/">7X Music</a>
+    <a class="tile" href="https://freetvgarden.com/india/9x-jalwa/">9x Jalwa Music</a>
+    <a class="tile" href="hhttps://freetvgarden.com/india/9xm/">9XM Music</a>
+    <a class="tile" href="https://freetvgarden.com/india/mastiii/">Mastiii</a>
+    <a class="tile" href="https://freetvgarden.com/india/india-tv-aap-ki-adalat/">Aap Ki Adalat</a>
+
+    <!-- ROW 5 -->
+    <a class="tile" href="https://freetvgarden.com/india/colors-cineplex/">Colors Cineplex</a>
+    <a class="tile" href="https://freetvgarden.com/india/zee-cinema/">Zee Cinema</a>
+    <div class="tile">--</div>
+    <div class="tile">--</div>
+    <div class="tile">--</div>
+
+    <!-- ROW 6 -->
+    <a class="tile" href="https://freetvgarden.com/india/aastha-gujarati/">Aastha Gujarati</a>
+    <a class="tile" href="https://freetvgarden.com/india/aastha/">Aastha</a>
+    <a class="tile" href="https://freetvgarden.com/india/aastha-international/">Aastha Int'l</a>
+    <a class="tile" href="https://freetvgarden.com/india/aastha-bhajan/">Aastha Bhjan</a>
+    <a class="tile" href="https://freetvgarden.com/india/aastha-prime-1/">Aastha Prime 1</a>    
+
+    <!-- ROW 7 -->
+    <a class="tile" href="https://freetvgarden.com/india/aadinath-tv">Aadinath TV</a>
+    <a class="tile" href="https://freetvgarden.com/india/adhyatm-tv/">Adhyatm TV</a>
+    <a class="tile" href="https://freetvgarden.com/india/agamvani-channel/">Agamvani Channel</a>
+    <a class="tile" href="https://freetvgarden.com/india/anand-tv/">Anand TV</a>
+    <div class="tile">--</div>
+
+  </div>
+
+</body>
+</html>
+
