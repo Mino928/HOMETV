@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HOME TV</title>
-  <!-- Load Video Engine -->
+  <!-- Load Video Engine and Styles -->
   <link href="https://zencdn.net" rel="stylesheet" />
   <script src="https://zencdn.net"></script>
   
@@ -24,6 +24,7 @@
       gap: 20px;
       max-width: 1200px;
       margin: 0 auto;
+      padding-bottom: 50px;
     }
     /* Channel Cell Configuration */
     .channel-box {
@@ -34,7 +35,7 @@
       cursor: pointer;
       transition: all 0.2s;
     }
-    /* CRITICAL: TV Remote D-Pad Highlight styling */
+    /* TV Remote D-Pad Highlight styling */
     .channel-box:focus {
       outline: 5px solid #00E676 !important; /* Thick Neon Green border */
       background-color: #2e7d32 !important;
@@ -52,7 +53,7 @@
       font-weight: bold;
       pointer-events: none;
     }
-    /* Fullscreen Video overlay player hidden by default */
+    /* Fullscreen Video overlay player layer */
     #video-overlay {
       display: none;
       position: fixed;
@@ -65,10 +66,10 @@
 </head>
 <body>
 
-  <h1>TV Bookmarks</h1>
+  <h1>FreeTV Garden Bookmarks</h1>
   
   <div class="grid-container">
-    <!-- Tabindex="0" maps these directly to the Left/Right/Up/Down remote buttons -->
+    <!-- Channel list mapped to TV Remote D-pad numbers -->
     <div class="channel-box" tabindex="0" data-stream="https://amagi.tv">
       <img src="https://streamready.in">
       <div>&TV</div>
@@ -189,3 +190,5 @@
       <img src="https://theq.tv">
       <div>Q TV</div>
     </div>
+    <div class="channel-box" tabindex="0" data-stream="https://cloudfront.net">
+
