@@ -21,173 +21,117 @@
 <body>
   <h1>TV Bookmarks</h1>
   <div id="video-overlay"><video id="my-tv-player" class="video-js vjs-default-skin" controls preload="auto"></video></div>
+  
   <div class="grid-container">
-
-    <div class="grid-container">
-    <!-- Channel list mapped to TV Remote D-pad numbers -->
-    <div class="channel-box" tabindex="0" data-stream="https://amagi.tv">
-      <img src="https://streamready.in">
-      <div>&TV</div>
+    <div class="channel-box" tabindex="0" data-id="andtv"><img src="https://streamready.in"><div>&TV</div></div>
+    <div class="channel-box" tabindex="0" data-id="scope"><img src="https://jio.com"><div>22 Scope News</div></div>
+    <div class="channel-box" tabindex="0" data-id="7x"><img src="https://jio.com"><div>7X Music</div></div>
+    <div class="channel-box" tabindex="0" data-id="jalwa"><img src="https://streamready.in"><div>9x Jalwa Music</div></div>
+    <div class="channel-box" tabindex="0" data-id="9xm"><img src="https://streamready.in"><div>9XM Music</div></div>
+    <div class="channel-box" tabindex="0" data-id="aadinath"><img src="https://streamready.in"><div>Aadinath TV</div></div>
+    <div class="channel-box" tabindex="0" data-id="aagaaz"><img src="https://jio.com"><div>Aagaaz Times</div></div>
+    <div class="channel-box" tabindex="0" data-id="khabar"><img src="https://media-amazon.com"><div>Aaj Ki Khabar</div></div>
+    <div class="channel-box" tabindex="0" data-id="aajtak"><img src="https://streamready.in"><div>Aaj Tak News</div></div>
+    <div class="channel-box" tabindex="0" data-id="adalat"><img src="https://googleusercontent.com"><div>Aap Ki Adalat</div></div>
+    <div class="channel-box" tabindex="0" data-id="aastha"><img src="https://imgur.com"><div>Aastha</div></div>
+    <div class="channel-box" tabindex="0" data-id="aasthabhajan"><img src="https://tmsimg.com"><div>Aastha Bhajan</div></div>
+    <div class="channel-box" tabindex="0" data-id="aasthaguj"><img src="https://jio.com"><div>Aastha Gujarati</div></div>
+    <div class="channel-box" tabindex="0" data-id="aasthaint"><img src="https://wikimedia.org"><div>Aastha Int'l</div></div>
+    <div class="channel-box" tabindex="0" data-id="aasthaprime"><img src="https://imgur.com"><div>Aastha Prime 1</div></div>
+    <div class="channel-box" tabindex="0" data-id="abntv"><img src="https://imgur.com"><div>ABN TV India</div></div>
+    <div class="channel-box" tabindex="0" data-id="adhyatm"><img src="https://jio.com"><div>Adhyatm TV</div></div>
+    <div class="channel-box" tabindex="0" data-id="alright"><img src="https://jio.com"><div>Alright! TV</div></div>
+    <div class="channel-box" tabindex="0" data-id="anand"><img src="https://jio.com"><div>Anand TV</div></div>
+    <div class="channel-box" tabindex="0" data-id="anjan"><img src="https://imgur.com"><div>Anjan TV</div></div>
+    <div class="channel-box" tabindex="0" data-id="apnama"><img src="https://jio.com"><div>Apna Ma</div></div>
+    <div class="channel-box" tabindex="0" data-id="apnapunjab"><img src="https://imgur.com"><div>Apna Punjab TV</div></div>
+    <div class="channel-box" tabindex="0" data-id="b4u"><img src="https://tmsimg.com"><div>B4U Kadak</div>
     </div>
-    <div class="channel-box" tabindex="0" data-stream="https://thelegitpro.in">
-      <img src="https://jio.com">
-      <div>22 Scope News</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://akamaized.net">
-      <img src="https://jio.com">
-      <div>7X Music</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://wiseplayout.com">
-      <img src="https://streamready.in">
-      <div>9x Jalwa Music</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://wiseplayout.com">
-      <img src="https://streamready.in">
-      <div>9XM Music</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://pishow.tv">
-      <img src="https://streamready.in">
-      <div>Aadinath TV</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://ottlive.co.in">
-      <img src="https://jio.com">
-      <div>Aagaaz Times</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://ottlive.co.in">
-      <img src="https://media-amazon.com">
-      <div>Aaj Ki Khabar</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://intoday.in">
-      <img src="https://streamready.in">
-      <div>Aaj Tak News</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://amagi.tv">
-      <img src="https://googleusercontent.com">
-      <div>Aap Ki Adalat</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://akamaized.net">
-      <img src="https://imgur.com">
-      <div>Aastha</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://cloudfront.net">
-      <img src="https://tmsimg.com">
-      <div>Aastha Bhajan</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://cloudfront.net">
-      <img src="https://jio.com">
-      <div>Aastha Gujarati</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://akamaized.net">
-      <img src="https://wikimedia.org">
-      <div>Aastha Int'l</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://akamaized.net">
-      <img src="https://imgur.com">
-      <div>Aastha Prime 1</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://abnvideos.com">
-      <img src="https://imgur.com">
-      <div>ABN TV India</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://smartplaytv.in">
-      <img src="https://jio.com">
-      <div>Adhyatm TV</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://cloudfront.net">
-      <img src="https://jio.com">
-      <div>Alright! TV</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://legitpro.co.in">
-      <img src="https://jio.com">
-      <div>Anand TV</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://vstream.online">
-      <img src="https://imgur.com">
-      <div>Anjan TV</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://ekamraott.com">
-      <img src="https://jio.com">
-      <div>Apna Ma</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://gigabitcdn.net">
-      <img src="https://imgur.com">
-      <div>Apna Punjab TV</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://amagi.tv">
-      <img src="https://tmsimg.com">
-      <div>B4U Kadak</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://cloudfront.net">
-      <img src="https://imgur.com">
-      <div>Colors</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://githubusercontent.com">
-      <img src="https://streamready.in">
-      <div>Colors Cineplex</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://githubusercontent.com">
-      <img src="https://streamready.in">
-      <div>Colors Gujarati</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://cloudfront.net">
-      <img src="https://imgur.com">
-      <div>Colors MENA</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://smartplaytv.in">
-      <img src="https://imgur.com">
-      <div>Mastiii</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://akamaized.net">
-      <img src="https://streamready.in">
-      <div>NDTV</div>
-    </div>
-    <div class="channel-box" tabindex="0" data-stream="https://ektv.in">
-      <img src="https://theq.tv">
-      <div>Q TV</div>
-    </div>
-
-
-    <div class="channel-box" tabindex="0" data-stream="https://cloudfront.net"><img src="https://streamready.in"><div>Sanskar TV</div></div>
-    <div class="channel-box" tabindex="0" data-stream="https://amagi.tv"><img src="https://jio.com"><div>Swastik Stories</div></div>
-    <div class="channel-box" tabindex="0" data-stream="https://githubusercontent.com"><img src="https://streamready.in"><div>Zee Cinema</div></div>
+    <div class="channel-box" tabindex="0" data-id="colors"><img src="https://imgur.com"><div>Colors</div></div>
+    <div class="channel-box" tabindex="0" data-id="cineplex"><img src="https://streamready.in"><div>Colors Cineplex</div></div>
+    <div class="channel-box" tabindex="0" data-id="colorsguj"><img src="https://streamready.in"><div>Colors Gujarati</div></div>
+    <div class="channel-box" tabindex="0" data-id="colorsmena"><img src="https://imgur.com"><div>Colors MENA</div></div>
+    <div class="channel-box" tabindex="0" data-id="mastiii"><img src="https://imgur.com"><div>Mastiii</div></div>
+    <div class="channel-box" tabindex="0" data-id="ndtv"><img src="https://streamready.in"><div>NDTV</div></div>
+    <div class="channel-box" tabindex="0" data-id="qtv"><img src="https://theq.tv"><div>Q TV</div></div>
+    <div class="channel-box" tabindex="0" data-id="sanskar"><img src="https://streamready.in"><div>Sanskar TV</div></div>
+    <div class="channel-box" tabindex="0" data-id="swastik"><img src="https://jio.com"><div>Swastik Stories</div></div>
+    <div class="channel-box" tabindex="0" data-id="zee"><img src="https://streamready.in"><div>Zee Cinema</div></div>
   </div>
+
   <script>
-    var player = videojs('my-tv-player');
-    var overlay = document.getElementById('video-overlay');
-    var currentBox = null;
-    document.querySelectorAll('.channel-box').forEach(function(box) {
-      box.addEventListener('click', function() {
-        currentBox = box;
-        var streamUrl = box.getAttribute('data-stream');
-        overlay.style.display = 'block';
-        player.src({ src: streamUrl, type: 'application/x-mpegURL' });
-        player.muted(false); 
-        player.play();
-        var playerEl = document.getElementById('video-overlay');
-        if (playerEl.requestFullscreen) playerEl.requestFullscreen();
-        else if (playerEl.webkitRequestFullscreen) playerEl.webkitRequestFullscreen();
-      });
-    });
-    document.addEventListener('keydown', function(e) {
-      if ((e.key === 'Enter' || e.keyCode === 23) && document.activeElement.classList.contains('channel-box')) {
-        document.activeElement.click();
-      }
-      if (e.key === 'Backspace' || e.keyCode === 4) { 
-        if (overlay.style.display === 'block') {
-          e.preventDefault();
-          player.pause();
-          overlay.style.display = 'none';
-          if (document.exitFullscreen) document.exitFullscreen();
-          else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
-          if (currentBox) currentBox.focus();
-        }
-      }
-    });
-    window.onload = function() {
+    var streams = {
+      "andtv": "https://amagi.tv",
+      "scope": "https://thelegitpro.in",
+      "7x": "https://akamaized.net",
+      "jalwa": "https://wiseplayout.com",
+      "9xm": "https://wiseplayout.com",
+      "aadinath": "https://pishow.tv",
+      "aagaaz": "https://ottlive.co.in",
+      "khabar": "https://ottlive.co.in",
+      "aajtak": "https://intoday.in",
+      "adalat": "https://amagi.tv",
+      "aastha": "https://akamaized.net",
+      "aasthabhajan": "https://cloudfront.net",
+      "aasthaguj": "https://cloudfront.net",
+      "aasthaint": "https://akamaized.net",
+      "aasthaprime": "https://akamaized.net",
+      "abntv": "https://abnvideos.com",
+      "adhyatm": "https://smartplaytv.in",
+      "alright": "https://cloudfront.net",
+      "anand": "https://legitpro.co.in",
+      "anjan": "https://vstream.online",
+      "apnama": "https://ekamraott.com",
+      "apnapunjab": "https://gigabitcdn.net",
+      "b4u": "https://amagi.tv",
+      "colors": "https://cloudfront.net",
+      "cineplex": "https://githubusercontent.com",
+      "colorsguj": "https://githubusercontent.com",
+      "colorsmena": "cloudfront.net",
+"mastiii": "smartplaytv.in",
+"ndtv": "akamaized.net",
+"qtv": "ektv.in",
+"sanskar": "cloudfront.net",
+"swastik": "amagi.tv",
+"zee": "githubusercontent.com"
+};
+var player = videojs('my-tv-player');
+var overlay = document.getElementById('video-overlay');
+var currentBox = null;
+document.querySelectorAll('.channel-box').forEach(function(box) {
+box.addEventListener('click', function() {
+currentBox = box;
+var id = box.getAttribute('data-id');
+var streamUrl = streams[id];
+overlay.style.display = 'block';
+player.src({ src: streamUrl, type: 'application/x-mpegURL' });
+player.muted(false);
+player.play();
+
+  var playerEl = document.getElementById('video-overlay');
+if (playerEl.requestFullscreen) playerEl.requestFullscreen();
+else if (playerEl.webkitRequestFullscreen) playerEl.webkitRequestFullscreen();
+});
+});
+document.addEventListener('keydown', function(e) {
+if ((e.key === 'Enter' || e.keyCode === 23) && document.activeElement.classList.contains('channel-box')) {
+document.activeElement.click();
+}
+if (e.key === 'Backspace' || e.keyCode === 4) {
+if (overlay.style.display === 'block') {
+e.preventDefault();
+player.pause();
+overlay.style.display = 'none';
+if (document.exitFullscreen) document.exitFullscreen();
+else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+if (currentBox) currentBox.focus();
+}
+}
+});
+window.onload = function() {
       var firstBox = document.querySelector('.channel-box');
       if (firstBox) firstBox.focus();
     };
   </script>
 </body>
 </html>
-
